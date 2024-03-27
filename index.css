@@ -1,54 +1,54 @@
 body {
-    background-color: dimgray;
-}
-.container {
-    display: flex;
-    flex-direction: column;
-    width: 450px;
-    height: auto;
-    margin: auto;
-    margin-top: 40px;
-    text-align: center;
-    padding: 20px;
-    background-color: darkcyan;
-    border-radius: 6px;
-}
-h1 {
-    color: aliceblue;
-    text-shadow: 2px 2px 2px black;
+	background-color: darksalmon;
     font-family: sans-serif;
 }
+.container {
+	width: 500px;
+	height: auto;
+	margin: auto;
+    margin-top: 150px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid darkslategray;
+	background-color: darkslategray;
+	border-radius: 8px;
+	text-align: center;
+}
+.container h2 {
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
 #text {
-    width: 300px;
-    height: 50px;
-    align-self: center;
-    margin: 5px;
+	width: 200px;
+	align-self: center;
+	margin-bottom: 10px;
 }
-#message {
-     width: 300px;
-     height: 50px;
-     align-self: center;
-     margin: 5px;
- }
 #send {
-    width: 150px;
-    margin: 10px;
     align-self: center;
-    background-color: green;
-    color: aliceblue;
-    font-size: 15px;
-    font-weight: 800;
-    padding: 15px;
+    background-color: darksalmon;
+    color: darkslategray;
+    font-weight: 700;
+    border-radius: 5px;
 }
-#clear {
-    width: 150px;
-    margin: 10px;
-    align-self: center;
+#warn {
+    padding: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
     background-color: red;
     color: white;
-    font-size: 15px;
-    font-weight: 800;
-    padding: 15px;
+    display: none;
+    font-weight: 550;
+    align-self: center;
+    border-radius: 5px;
+    font-family: cursive;
+    font-style: italic;
+    opacity: 65%;
 }
-
-
+#message {
+    margin-top: 0;
+    color: lightskyblue;
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+    font-family: monospace;
+}
